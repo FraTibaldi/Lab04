@@ -4,5 +4,6 @@ class Espositore:
         self.codice = codice
         self.nome = nome
         self.cognome = cognome
+        self.codiceStand = None
     def __str__(self):
-        return f"{self.codice} | Nome {self.nome} Cognome {self.cognome}"
+        return f"{self.codice} | Nome: {self.nome} Cognome: {self.cognome}"

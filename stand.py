@@ -1,5 +1,3 @@
-from xxlimited_35 import Null
-
 
 class Stand:
     def __init__(self, codice, metratura, padiglione, prezzo):
